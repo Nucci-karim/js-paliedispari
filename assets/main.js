@@ -1,9 +1,9 @@
 const parola = prompt('scrivi una parola')
 
 function ruotaParola(parola){
-let parolaRuotata = ''
+    let parolaRuotata = ''
 
-    for (let i = parola.lenght - 1; i >= 0; i--){
+    for (let i = parola.length - 1; i >= 0; i--){
         parolaRuotata += parola[i]
     }
 
